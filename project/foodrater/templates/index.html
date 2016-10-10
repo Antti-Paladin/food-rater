@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>Lunch Ratings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bower_components/five-star-rating/css/rating.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body style="padding-left: 50px;padding-right: 50px">
+    <div>
+      <h1>Lunch Ratings</h1>
+      <br>
+      <div id="main" class="container-fluid"></div>
+    </div>
+    <!-- scripts -->
+    <script src="{{ url_for('static', filename='bower_components/react/react.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/five-star-rating/js/dist/rating.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/js/main.js') }}"></script>
+  </body>
+</html>
