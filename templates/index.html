@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='icons/favicon.ico') }}">
+    <link rel="icon" type="image/gif" href="{{ url_for('static', filename='icons/animated_favicon1.gif') }}">
+    <meta charset="UTF-8">
+    <title>Lunch Ratings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/rating.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/react-select/dist/react-select.css">
+  </head>
+  <body style="padding-left: 50px;padding-right: 50px">
+    <div>
+      <h1>Lunch Ratings</h1>
+      <br>
+      <div id="main" class="container-fluid"></div>
+    </div>
+    <!-- scripts -->
+    <script src="{{ url_for('static', filename='bower_components/react/react.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/moment/min/moment-with-locales.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/react-bootstrap/react-bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/spin.js/spin.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/react-loader/lib/react-loader.js') }}"></script>
+    <script src="https://unpkg.com/classnames/index.js"></script>
+    <script src="https://unpkg.com/react-input-autosize/dist/react-input-autosize.js"></script>
+    <script src="https://unpkg.com/react-select/dist/react-select.js"></script>
+    <script src="{{ url_for('static', filename='scripts/js/rating.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/js/main.js') }}"></script>
+  </body>
+</html>

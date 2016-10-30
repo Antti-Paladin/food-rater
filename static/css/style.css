@@ -1,0 +1,37 @@
+/* custom styles */
+
+.container {
+  text-align: center;
+  padding-top: 50px;
+  max-width: 300px;
+}
+
+
+input {
+  text-align: left;
+  border: 5px solid;
+  padding: 13px 12px;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+
+ul {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.loaderCircle {
+    border: 6px solid #f3f3f3; /* Light grey */
+    border-top: 6px solid #787C7B; /* Dark grey */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
